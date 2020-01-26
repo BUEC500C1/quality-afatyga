@@ -1,6 +1,6 @@
-from hw1 import *
+import hw1
 
 def test_answer():
-	assert conversion(1) == "I"
-	assert conversion(4) == "IV"
-	assert conversion(9) == "IX"
+	assert hw1.conversion(1) == "I"
+	assert hw1.conversion(4) == "IV"
+	assert hw1.conversion(9) == "IX"
