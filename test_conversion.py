@@ -1,4 +1,4 @@
-from hw1 import *
+import hw1
 
 def test_answer():
 	assert conversion(1) == "I"
