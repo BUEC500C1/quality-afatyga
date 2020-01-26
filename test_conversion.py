@@ -10,7 +10,6 @@ def test_normal():
 	assert hw1.conversion(24) == "XXIV"
 	assert hw1.conversion(99) == "XCIX"
 
-
 def test_abnormal():
 	assert hw1.conversion(-1) == ""
 	assert hw1.conversion(0) == ""
