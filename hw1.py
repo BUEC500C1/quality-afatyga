@@ -11,6 +11,6 @@ def conversion(arabic):
 			roman += numeral
 	return roman
 
-arabic = input("Enter your arabic number: ") #add error checking
-roman = conversion(int(arabic))
-print(roman)
+#arabic = input("Enter your arabic number: ") #add error checking
+#roman = conversion(int(arabic))
+#print(roman)
