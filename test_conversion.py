@@ -9,6 +9,14 @@ def test_normal(): #correct, normal cases
 	assert hw1.conversion(24) == "XXIV"
 	assert hw1.conversion(24) == "XXIV"
 	assert hw1.conversion(99) == "XCIX"
+	assert hw1.conversion(104) == "CIV"
+	assert hw1.conversion(493) == "CDXCIII"
+	assert hw1.conversion(499) == "CDXCIX"
+	assert hw1.conversion(500) == "D"
+	assert hw1.conversion(999) == "CMXCIX"
+	assert hw1.conversion(1021) == "MXXI"
+	assert hw1.conversion(3000) == "MMM"
+	assert hw1.conversion(3999) == "MMMCMXCIX"
 
 def test_abnormal(): #abnormal cases that should fail such as doubles, strings, ints below 1
 	assert hw1.conversion(-1) == "ERROR"
