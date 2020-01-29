@@ -11,3 +11,6 @@ For more informaiton, please check the assignment presentation.
 Deadline for completion of this project is January 29th, 2019. 
 You are expected to show all aspects of your work. This includes results of build process. 
 You are expected to use Github actively during this exercise.
+
+HW1 Alex Fatyga
+Started with creating a basic version of computing from arabic to roman numeral, added CB and CI, wrote tests for it and then worked on error checking!
